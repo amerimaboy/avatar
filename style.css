@@ -137,4 +137,68 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(18px);
 }
+.Page {
+  background-image: url(pics/Avatar_standing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 40px; 
+  color: white;
+}
+.Join_Clan {
+  width: 300px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.clan-txt {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+.arrow {
+  align-self: left;
+  background-image: url(pics/Rectangle\ 53.png);
+  padding: 15px 40px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+.clan-text {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
 
+.join-clan-button {
+  background-color: #0B0E66;
+  border: 2px solid rgb(0, 170, 255);
+  border-radius: 20px 5px 20px 5px;
+  color: #00aaff;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+    font-family: "Headland One", serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: font-size 0.4s, color 0.4s;
+  margin-left: 100px;
+
+}
+.join-clan-button:hover {
+  background-color: rgb(0, 170, 255);
+  color: rgb(197, 195, 195);
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  font-weight: 700;
+}
+.join-clan-button:active {
+  background-color: #00aaff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  font-weight: 900;
+}
