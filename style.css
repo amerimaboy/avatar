@@ -6,6 +6,10 @@
   background: linear-gradient(to right, rgba(0, 31, 63, 0.84) , rgba(0, 63, 92, 0.84) );
   font-family: Arial, sans-serif;
   color: white;
+  height: 153px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .navbar-logo {
@@ -142,11 +146,12 @@ input:checked + .slider:before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 300px 40px; 
+  padding-bottom: 156px;
+  padding-top: 338px; 
   color: white;
 }
 .Join_Clan {
-  width: 300px;
+  width: 350px;
   padding: 20px;
   font-family: Arial, sans-serif;
 }
@@ -154,7 +159,15 @@ input:checked + .slider:before {
   text-align: left;
   margin-bottom: 10px;
   margin-left: 100px;
+  width: 295px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
 }
 .arrow {
   align-self: left;
@@ -164,17 +177,26 @@ input:checked + .slider:before {
   margin-left: 100px;
 }
 .clan-text {
-  font-size: 20px;
+  width: 295px;
   text-align: left;
   margin-top: 25px;
   margin-bottom: 30px;
   margin-left: 100px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
 }
 
 .join-clan-button {
   background-color: #0B0E66;
-  border: 2px solid rgb(0, 170, 255);
-  border-radius: 20px 5px 20px 5px;
+  border: 3px solid rgb(0, 170, 255);
+  border-radius: 50px 5px 50px 5px;
   color: #00aaff;
   padding: 5px 20px;
   font-size: 16px;
@@ -184,9 +206,12 @@ input:checked + .slider:before {
   font-style: normal;
   transition: font-size 0.4s, color 0.4s;
   margin-left: 100px;
+  width: 260px;
+  height: 80px;
 
 }
 .join-clan-button:hover {
+  border: 3px solid #0B0E66;
   background-color: rgb(0, 170, 255);
   color: rgb(197, 195, 195);
   text-decoration: none;
@@ -201,4 +226,25 @@ input:checked + .slider:before {
   font-size: 20px;
   position: relative;
   font-weight: 900;
+}
+.quote-1-padding {
+  height: 350px;
+  padding-bottom: 10px;
+}
+.quote1-top {
+  padding-top: 75px;
+  padding-left: 170px;
+  padding-right: 170px;
+  height: 44px;
+  width: 1100px;
+  text-align: center;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 24px;
+
+  color: #000000;
+
 }
