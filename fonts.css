@@ -1,0 +1,31 @@
+@font-face {
+    font-family:HammerSmith ;
+    src: url(assets/fonts/HammersmithOne-Regular.ttf);
+    format:(TrueType);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family:Inter1 ;
+    src: url(assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+    format:(TrueType);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family:Inter2 ;
+    src: url(assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+    format:(TrueType);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family:Inter3 ;
+    src: url(assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+    format:(TrueType);
+    font-weight: 600;
+    font-size: 16px;
+}
